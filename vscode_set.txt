@@ -1,0 +1,13 @@
+private void initComponents(int TableSize)
+
+{
+    public Class getColumnClass(int column) {
+        return (column == 0) ? Icon.class : Object.class;
+    }
+};
+
+ProductTable.setModel(new javax.swing.table.DefaultTableModel(
+    TableStructures (TableSize),
+    this.TableModel
+)); 
+
